@@ -1,0 +1,9 @@
+version: '3'
+services:
+  my_text_generator:
+    build:
+      context: .
+    ports:
+      - "8888:80"
+    volumes:
+      - .:/app
